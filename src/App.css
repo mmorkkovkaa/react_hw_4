@@ -30,9 +30,8 @@
 nav{
   background-color: rgba(241, 70, 136, 0.98);
   font-size: 30px;
-  display: flex;
-  justify-content: space-between;
   width: 1260px;
+  height: 70px;
   margin-top: -20px;
   border-radius: 100px;
 }
@@ -40,9 +39,16 @@ nav h6{
   margin-right: 40px;
   margin-bottom: 25px;
 }
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+}
 nav li{
   list-style: none;
   margin-left: 20px;
+  margin-top: 15px;
+  margin-right: 10px;
 
 }
 nav a{
@@ -67,6 +73,23 @@ nav a.active-link{
 .product-card img{
   width: 200px;
   height: 150px;
+}
+
+.cart ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-right: 20px;
+  list-style: none;
+}
+.cart ul li{
+
+  padding-right: 20px;
+}
+
+.cart ul img{
+  width: 200px;
+  height: 250px;
 }
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
